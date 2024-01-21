@@ -1,0 +1,7 @@
+login.orange.fr:443
+www.google.fr
+www.orange.com
+mail.orange.fr
+yahoo.fr
+webmail.yahoo.fr
+www.free.fr
