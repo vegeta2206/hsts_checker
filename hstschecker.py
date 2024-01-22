@@ -39,13 +39,13 @@ curdate = datetime.datetime.now()
 # Formater la date au format "AAAAMMJJ"
 filedate = curdate.strftime("%Y%m%d")
 
-# Utiliser la date formatée pour nommer votre fichier de log
+# Utiliser la date formatée pour nommer le fichier de log
 logfile = f"{filedate}_hstschecker.log"
 
 if debug == 1:
     print(f"LOGFILE : {logfile}")
 
-# Ouvrir un fichier en mode écriture (créera le fichier s'il n'existe pas)
+# Ouvrir un fichier en mode écriture
 logf = open(logfile, 'w')
 
 
@@ -157,7 +157,7 @@ with open('urls.txt') as f:
                         print(f"\033[91m{now}\t{content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' is missing Secure flag\033[0m")
                         logf.write(f"{now}\t{content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' is missing Secure flag\n")
 
-            # Count points with Dict
+            # Compter les points avec le Dict
             for header in header_points:
                 if header in response.headers:
                     print(f"\033[92m{now}\t{content} (Resolved IP: {ip})\t{header}: {response.headers[header]} FOUND\033[0m")
@@ -181,5 +181,6 @@ end_time = time.time()
 print("")
 print("It took --- {} seconds --- for all the links".format(end_time - start_time))
 logf.write(f"{now}\tTOTAL Time : {(end_time - start_time)}\n")
+
 
 
