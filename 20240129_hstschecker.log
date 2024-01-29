@@ -1,0 +1,212 @@
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Status Code: 200
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Final URL: https://193.252.148.209:443/
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Date: Mon, 29 Jan 2024 07:34:34 GMT
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Server: Apache
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Cache-Control: no-cache, no-store, must-revalidate, private
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Pragma: no-cache
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Referrer-Policy: origin
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Strict-Transport-Security: max-age=15811200
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	X-Frame-Options: DENY
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	X-XSS-Protection: 1; mode=block
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Expires: 0
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Access-Control-Allow-Credentials: true
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Access-Control-Allow-Origin: https://msisdn.login.orange.fr
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Content-Type: text/html; charset=utf-8
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Set-Cookie: noloop=; Domain=login.orange.fr; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT, xauth=e2cd6fec87d1e1e56731e4efd56e710a7ddbadc4824af5102660f63edda9c336%3BlSUJ43ZQRNOK%2BAZJbm8O%2FMZaSfHmk7MI9DORtXeZvzW9oMOzCfk6ZiB2TrPRu1IBdbHrUBN1kULX5kqk46pBaMVe8qM3S0yu7iZXFyXZMnI%3D; Max-Age=3600; Domain=login.orange.fr; Path=/; Expires=Mon, 29 Jan 2024 08:34:34 GMT; HttpOnly; Secure, datadome=g9wvL3~vzP0ONIfRyOW_9aW5HL1papo0WpXrzY~AKzTI5hucf_tx8IttSicihoFSYSzu78mtFE~x4TKA~7hnzme9jtfsjqCbRPk_JUwbwn7yMOfmmv2zNFqjPUflwoNf; Domain=login.orange.fr; Path=/; Expires=Tue, 28 Jan 2025 07:34:34 GMT, trust=a77ebb7d-c56f-e6d4-55cc-b06c26b4f036; Domain=.orange.fr; Path=/; Expires=Tue, 28 Jan 2025 07:34:34 GMT; Secure
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Cookie 'noloop=' has Secure flag
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Vary: Accept-Encoding
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Content-Encoding: gzip
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Keep-Alive: timeout=5, max=100
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Connection: Keep-Alive
+[2024-01-29 07:34:33.708867]	login.orange.fr:443 (Resolved IP: 193.252.148.209)	Transfer-Encoding: chunked
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Strict-Transport-Security: max-age=15811200 FOUND
+[2024-01-29 07:34:33.708867]	[WARNING] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Content-Security-Policy: MISSING
+[2024-01-29 07:34:33.708867]	[WARNING] login.orange.fr:443 (Resolved IP: 193.252.148.209)	X-Content-Type-Options: MISSING
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	X-Frame-Options: DENY FOUND
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Referrer-Policy: origin FOUND
+[2024-01-29 07:34:33.708867]	[WARNING] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Permissions-Policy: MISSING
+[2024-01-29 07:34:33.708867]	[INFO] login.orange.fr:443 (Resolved IP: 193.252.148.209)	X-XSS-Protection: 1; mode=block FOUND
+[2024-01-29 07:34:33.708867]	[WARNING] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:33.708867]	[WARNING] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:33.708867]	[WARNING] login.orange.fr:443 (Resolved IP: 193.252.148.209)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:33.708867]	[SCORE] login.orange.fr:443 (Resolved IP: 193.252.148.209)	HSTS/CSP Score: 6/18
+[2024-01-29 07:34:34.584255]	[INFO] www.google.fr (Resolved IP: 172.217.18.195)	Status Code: 200
+[2024-01-29 07:34:34.584255]	[INFO] www.google.fr (Resolved IP: 172.217.18.195)	Final URL: https://172.217.18.195:443/
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Date: Mon, 29 Jan 2024 07:34:34 GMT
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Expires: -1
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Cache-Control: private, max-age=0
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Content-Type: text/html; charset=UTF-8
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-oE1iBKktnrqISHDQDP87Fg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Permissions-Policy: unload=()
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Origin-Trial: Ap+qNlnLzJDKSmEHjzM5ilaa908GuehlLqGb6ezME5lkhelj20qVzfv06zPmQ3LodoeujZuphAolrnhnPA8w4AIAAABfeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJQZXJtaXNzaW9uc1BvbGljeVVubG9hZCIsImV4cGlyeSI6MTY4NTY2Mzk5OX0=, AvudrjMZqL7335p1KLV2lHo1kxdMeIN0dUI15d0CPz9dovVLCcXk8OAqjho1DX4s6NbHbA/AGobuGvcZv0drGgQAAAB9eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJCYWNrRm9yd2FyZENhY2hlTm90UmVzdG9yZWRSZWFzb25zIiwiZXhwaXJ5IjoxNjkxNTM5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Content-Encoding: gzip
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Server: gws
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	X-XSS-Protection: 0
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	X-Frame-Options: SAMEORIGIN
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Set-Cookie: SOCS=CAAaBgiA1dutBg; expires=Thu, 27-Feb-2025 07:34:34 GMT; path=/; domain=.google.fr; Secure; SameSite=lax, AEC=Ae3NU9M4EZ6G9XLFayMdRbEjK0AsG03kdNK_hRm0WZJlYLwlRbwpJGJ5NyA; expires=Sat, 27-Jul-2024 07:34:34 GMT; path=/; domain=.google.fr; Secure; HttpOnly; SameSite=lax, __Secure-ENID=17.SE=gaesPy67R-VeEeIEDbzc2zUR4NsA0XU-xEY7a2xjPql3JfLYbzg3B85BtWhuoWq2scOav6Ssz6RHRoIq15P8D8M3_06QDSlsm4S2HY8qS_1hTelUw2J2SQoITBXGumg_1VSK42Njfa3kGx8MZkI3BWR4P6N0dQDSkUe7v5WCn_vGZ896XQ; expires=Thu, 27-Feb-2025 23:52:52 GMT; path=/; domain=.google.fr; Secure; HttpOnly; SameSite=lax, CONSENT=PENDING+377; expires=Wed, 28-Jan-2026 07:34:34 GMT; path=/; domain=.google.fr; Secure
+[2024-01-29 07:34:34.584255]	[INFO] www.google.fr (Resolved IP: 172.217.18.195)	Cookie 'SOCS=CAAaBgiA1dutBg' has Secure flag
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[2024-01-29 07:34:34.584255]	www.google.fr (Resolved IP: 172.217.18.195)	Transfer-Encoding: chunked
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	Strict-Transport-Security: MISSING
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	Content-Security-Policy: MISSING
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	X-Content-Type-Options: MISSING
+[2024-01-29 07:34:34.584255]	[INFO] www.google.fr (Resolved IP: 172.217.18.195)	X-Frame-Options: SAMEORIGIN FOUND
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	Referrer-Policy: MISSING
+[2024-01-29 07:34:34.584255]	[INFO] www.google.fr (Resolved IP: 172.217.18.195)	Permissions-Policy: unload=() FOUND
+[2024-01-29 07:34:34.584255]	[INFO] www.google.fr (Resolved IP: 172.217.18.195)	X-XSS-Protection: 0 FOUND
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:34.584255]	[WARNING] www.google.fr (Resolved IP: 172.217.18.195)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:34.584255]	[SCORE] www.google.fr (Resolved IP: 172.217.18.195)	HSTS/CSP Score: 5/18
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	Status Code: 200
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	Final URL: https://www.orange.com/en
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	server: nginx
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	content-type: text/html; charset=UTF-8
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	cache-control: max-age=900, public
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	date: Thu, 25 Jan 2024 11:48:25 GMT
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-drupal-dynamic-cache: UNCACHEABLE
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	link: <https://www.orange.com/en>; rel="canonical", <https://www.orange.com/en>; rel="shortlink"
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-ua-compatible: IE=edge
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	content-language: en
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	expires: Sun, 19 Nov 1978 05:00:00 GMT
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	last-modified: Thu, 25 Jan 2024 11:48:23 GMT
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-drupal-cache: HIT
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	etag: W/"1706183303"
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	content-encoding: gzip
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	vary: Cookie, Accept-Encoding
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-varnish: 28207680 28473637
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	age: 795
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	via: 1.1 varnish (Varnish/6.5)
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-cache: HIT
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	accept-ranges: bytes
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	content-length: 14534
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	content-security-policy: frame-ancestors 'self' *.multimediabs.com *.orange.com *.orange-business.com *.backoffice.mastermedia.orange-business.com
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	strict-transport-security: max-age=31536000
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-xss-protection: 1; mode=block
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-frame-options: sameorigin always
+[2024-01-29 07:34:34.666006]	www.orange.com (Resolved IP: 90.84.180.167)	x-content-type-options: nosniff
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	Strict-Transport-Security: max-age=31536000 FOUND
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	Content-Security-Policy: frame-ancestors 'self' *.multimediabs.com *.orange.com *.orange-business.com *.backoffice.mastermedia.orange-business.com FOUND
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	X-Content-Type-Options: nosniff FOUND
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	X-Frame-Options: sameorigin always FOUND
+[2024-01-29 07:34:34.666006]	[WARNING] www.orange.com (Resolved IP: 90.84.180.167)	Referrer-Policy: MISSING
+[2024-01-29 07:34:34.666006]	[WARNING] www.orange.com (Resolved IP: 90.84.180.167)	Permissions-Policy: MISSING
+[2024-01-29 07:34:34.666006]	[INFO] www.orange.com (Resolved IP: 90.84.180.167)	X-XSS-Protection: 1; mode=block FOUND
+[2024-01-29 07:34:34.666006]	[WARNING] www.orange.com (Resolved IP: 90.84.180.167)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:34.666006]	[WARNING] www.orange.com (Resolved IP: 90.84.180.167)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:34.666006]	[WARNING] www.orange.com (Resolved IP: 90.84.180.167)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:34.666006]	[SCORE] www.orange.com (Resolved IP: 90.84.180.167)	HSTS/CSP Score: 9/18
+[2024-01-29 07:34:34.814627]	[INFO] mail.orange.fr (Resolved IP: 80.12.24.4)	Status Code: 404
+[2024-01-29 07:34:34.814627]	[INFO] mail.orange.fr (Resolved IP: 80.12.24.4)	Final URL: https://rms.orange.fr
+[2024-01-29 07:34:34.814627]	mail.orange.fr (Resolved IP: 80.12.24.4)	Cache-Control: no-cache, no-store
+[2024-01-29 07:34:34.814627]	mail.orange.fr (Resolved IP: 80.12.24.4)	Content-Type: text/plain; charset=utf-8
+[2024-01-29 07:34:34.814627]	mail.orange.fr (Resolved IP: 80.12.24.4)	X-Cf-Routererror: unknown_route
+[2024-01-29 07:34:34.814627]	mail.orange.fr (Resolved IP: 80.12.24.4)	X-Content-Type-Options: nosniff
+[2024-01-29 07:34:34.814627]	mail.orange.fr (Resolved IP: 80.12.24.4)	Date: Mon, 29 Jan 2024 07:34:34 GMT
+[2024-01-29 07:34:34.814627]	mail.orange.fr (Resolved IP: 80.12.24.4)	Content-Length: 66
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Strict-Transport-Security: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Content-Security-Policy: MISSING
+[2024-01-29 07:34:34.814627]	[INFO] mail.orange.fr (Resolved IP: 80.12.24.4)	X-Content-Type-Options: nosniff FOUND
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	X-Frame-Options: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Referrer-Policy: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Permissions-Policy: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	X-XSS-Protection: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:34.814627]	[WARNING] mail.orange.fr (Resolved IP: 80.12.24.4)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:34.814627]	[SCORE] mail.orange.fr (Resolved IP: 80.12.24.4)	HSTS/CSP Score: 1/18
+[2024-01-29 07:34:34.970358]	[INFO] yahoo.fr (Resolved IP: 34.225.127.72)	Status Code: 404
+[2024-01-29 07:34:34.970358]	[INFO] yahoo.fr (Resolved IP: 34.225.127.72)	Final URL: http://fr.yahoo.com/
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Date: Mon, 29 Jan 2024 07:34:35 GMT
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Connection: keep-alive
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Server: ATS
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Cache-Control: no-store
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Content-Type: text/html
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Content-Language: en
+[2024-01-29 07:34:34.970358]	yahoo.fr (Resolved IP: 34.225.127.72)	Content-Length: 4739
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Strict-Transport-Security: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Content-Security-Policy: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	X-Content-Type-Options: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	X-Frame-Options: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Referrer-Policy: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Permissions-Policy: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	X-XSS-Protection: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:34.970358]	[WARNING] yahoo.fr (Resolved IP: 34.225.127.72)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:34.970358]	[SCORE] yahoo.fr (Resolved IP: 34.225.127.72)	HSTS/CSP Score: 0/18
+[2024-01-29 07:34:35.319659]	[INFO] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Status Code: 404
+[2024-01-29 07:34:35.319659]	[INFO] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Final URL: https://13.49.212.207:443/
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Date: Mon, 29 Jan 2024 07:34:35 GMT
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Connection: keep-alive
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Server: ATS
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Cache-Control: no-store
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Content-Type: text/html
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Content-Language: en
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Expect-CT: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	X-Frame-Options: DENY
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	X-Content-Type-Options: nosniff
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Referrer-Policy: strict-origin-when-cross-origin
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+[2024-01-29 07:34:35.319659]	webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Content-Length: 4784
+[2024-01-29 07:34:35.319659]	[WARNING] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Strict-Transport-Security: MISSING
+[2024-01-29 07:34:35.319659]	[INFO] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect FOUND
+[2024-01-29 07:34:35.319659]	[INFO] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	X-Content-Type-Options: nosniff FOUND
+[2024-01-29 07:34:35.319659]	[INFO] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	X-Frame-Options: DENY FOUND
+[2024-01-29 07:34:35.319659]	[INFO] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Referrer-Policy: strict-origin-when-cross-origin FOUND
+[2024-01-29 07:34:35.319659]	[WARNING] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Permissions-Policy: MISSING
+[2024-01-29 07:34:35.319659]	[WARNING] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	X-XSS-Protection: MISSING
+[2024-01-29 07:34:35.319659]	[WARNING] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:35.319659]	[WARNING] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:35.319659]	[WARNING] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:35.319659]	[SCORE] webmail.yahoo.fr (Resolved IP: 13.49.212.207)	HSTS/CSP Score: 7/18
+[2024-01-29 07:34:35.462702]	[INFO] www.free.fr (Resolved IP: 212.27.48.10)	Status Code: 200
+[2024-01-29 07:34:35.462702]	[INFO] www.free.fr (Resolved IP: 212.27.48.10)	Final URL: https://www.free.fr/freebox/
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Server: nginx/1.14.2
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Date: Mon, 29 Jan 2024 07:34:35 GMT
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Content-Type: text/html
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Last-Modified: Fri, 26 Jan 2024 13:28:51 GMT
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Transfer-Encoding: chunked
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Connection: keep-alive
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	ETag: W/"65b3b393-d99d"
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	X-Frame-Options: SAMEORIGIN
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	X-Content-Type-Options: nosniff
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	X-XSS-Protection: 1; mode=block
+[2024-01-29 07:34:35.462702]	www.free.fr (Resolved IP: 212.27.48.10)	Content-Encoding: gzip
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Strict-Transport-Security: MISSING
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Content-Security-Policy: MISSING
+[2024-01-29 07:34:35.462702]	[INFO] www.free.fr (Resolved IP: 212.27.48.10)	X-Content-Type-Options: nosniff FOUND
+[2024-01-29 07:34:35.462702]	[INFO] www.free.fr (Resolved IP: 212.27.48.10)	X-Frame-Options: SAMEORIGIN FOUND
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Referrer-Policy: MISSING
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Permissions-Policy: MISSING
+[2024-01-29 07:34:35.462702]	[INFO] www.free.fr (Resolved IP: 212.27.48.10)	X-XSS-Protection: 1; mode=block FOUND
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:35.462702]	[WARNING] www.free.fr (Resolved IP: 212.27.48.10)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:35.462702]	[SCORE] www.free.fr (Resolved IP: 212.27.48.10)	HSTS/CSP Score: 4/18
+[2024-01-29 07:34:35.513917]	EXCEPTION: www2.trinhhuuphap.com (Resolved IP: 212.27.48.10 : Error: [Errno -2] Name or service not known)
+[2024-01-29 07:34:35.513917]	[SCORE] www2.trinhhuuphap.com (Resolved IP: 212.27.48.10)	HSTS/CSP Score: KO
+[2024-01-29 07:34:35.518259]	EXCEPTION: www.trinhhuuphap.com:22 (Resolved IP: 90.90.164.85 : Error: HTTPSConnectionPool(host='90.90.164.85', port=22): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd209590250>, 'Connection to 90.90.164.85 timed out. (connect timeout=2)')))
+[2024-01-29 07:34:35.518259]	[SCORE] www.trinhhuuphap.com:22 (Resolved IP: 90.90.164.85)	HSTS/CSP Score: KO
+[2024-01-29 07:34:37.522110]	[INFO] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Status Code: 404
+[2024-01-29 07:34:37.522110]	[INFO] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Final URL: https://r.orange.fr/r/Oerreur_403
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Cache-Control: no-cache, no-store
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Content-Type: text/plain; charset=utf-8
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	X-Cf-Routererror: unknown_route
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	X-Content-Type-Options: nosniff
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Date: Mon, 29 Jan 2024 07:34:37 GMT
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Content-Length: 99
+[2024-01-29 07:34:37.522110]	shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Connection: close
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Strict-Transport-Security: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Content-Security-Policy: MISSING
+[2024-01-29 07:34:37.522110]	[INFO] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	X-Content-Type-Options: nosniff FOUND
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	X-Frame-Options: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Referrer-Policy: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Permissions-Policy: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	X-XSS-Protection: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Cross-Origin-Embedder-Policy: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Cross-Origin-Opener-Policy: MISSING
+[2024-01-29 07:34:37.522110]	[WARNING] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	Cross-Origin-Resource-Policy: MISSING
+[2024-01-29 07:34:37.522110]	[SCORE] shopping.tendances.orange.fr.cfy.multis.fti.net:443 (Resolved IP: 193.252.148.147)	HSTS/CSP Score: 1/18
+[2024-01-29 07:34:37.522110]	TOTAL Time : 3.9699621200561523

@@ -5,3 +5,6 @@ mail.orange.fr
 yahoo.fr
 webmail.yahoo.fr
 www.free.fr
+www2.trinhhuuphap.com
+www.trinhhuuphap.com:22
+shopping.tendances.orange.fr.cfy.multis.fti.net:443

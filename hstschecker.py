@@ -121,9 +121,14 @@ with open('urls.txt') as f:
 
         try:
             host = get_host_from_url(content)
+            if content:
+                hostinfo = content.split(":")
+                if len(hostinfo) > 1:
+                    port = hostinfo[1]
+
             ip = socket.gethostbyname(host)
             headers = {'Host': host}
-            url = f"https://{ip}"
+            url = f"https://{ip}:{port}"
 
 
             response = session.get(url, headers=headers, verify=False, allow_redirects=True, timeout=timeout_seconds)
@@ -132,16 +137,16 @@ with open('urls.txt') as f:
             print("===========================================================")
 
             if debug == 1:
-                print(f"{now}\tURL: {content} (Resolved IP: {ip})")
+                print(f"{now}\t[DEBUG] URL: {content} (Resolved IP: {ip})")
 
-            print(f"{now}\t{content} (Resolved IP: {ip})\tStatus Code: {response.status_code}")
-            logf.write(f"{now}\t{content} (Resolved IP: {ip})\tStatus Code: {response.status_code}\n")
+            print(f"{now}\t[INFO] {content} (Resolved IP: {ip})\tStatus Code: {response.status_code}")
+            logf.write(f"{now}\t[INFO] {content} (Resolved IP: {ip})\tStatus Code: {response.status_code}\n")
 
             # Obtenir l'URL finale après les redirections
             final_url = response.url
 
-            print(f"{now}\t{content} (Resolved IP: {ip})\tFinal URL: {final_url}")
-            logf.write(f"{now}\t{content} (Resolved IP: {ip})\tFinal URL: {final_url}\n")
+            print(f"{now}\t[INFO] {content} (Resolved IP: {ip})\tFinal URL: {final_url}")
+            logf.write(f"{now}\t[INFO] {content} (Resolved IP: {ip})\tFinal URL: {final_url}\n")
 
             for key, value in response.headers.items():
                 if debug == 1:
@@ -151,31 +156,32 @@ with open('urls.txt') as f:
                 if key.lower() == 'set-cookie':
                     secure_flag = check_secure_flag_in_cookies(value)
                     if secure_flag:
-                        print(f"\033[92m{now}\t{content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' has Secure flag\033[0m")
-                        logf.write(f"{now}\t{content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' has Secure flag\n")
+                        print(f"\033[92m{now}\t[INFO] {content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' has Secure flag\033[0m")
+                        logf.write(f"{now}\t[INFO] {content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' has Secure flag\n")
                     else:
-                        print(f"\033[91m{now}\t{content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' is missing Secure flag\033[0m")
-                        logf.write(f"{now}\t{content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' is missing Secure flag\n")
+                        print(f"\033[91m{now}\t[WARNING] {content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' is missing Secure flag\033[0m")
+                        logf.write(f"{now}\t[WARNING] {content} (Resolved IP: {ip})\tCookie '{value.split(';')[0]}' is missing Secure flag\n")
 
             # Compter les points avec le Dict
             for header in header_points:
                 if header in response.headers:
-                    print(f"\033[92m{now}\t{content} (Resolved IP: {ip})\t{header}: {response.headers[header]} FOUND\033[0m")
-                    logf.write(f"{now}\t{content} (Resolved IP: {ip})\t{header}: {response.headers[header]} FOUND\n")
+                    print(f"\033[92m{now}\t[INFO] {content} (Resolved IP: {ip})\t{header}: {response.headers[header]} FOUND\033[0m")
+                    logf.write(f"{now}\t[INFO] {content} (Resolved IP: {ip})\t{header}: {response.headers[header]} FOUND\n")
                     security_score += header_points[header]
                 else:
-                    print(f"\033[91m{now}\t{content} (Resolved IP: {ip})\t{header}: MISSING\033[0m")
-                    logf.write(f"{now}\t{content} (Resolved IP: {ip})\t{header}: MISSING\n")
+                    print(f"\033[91m{now}\t[WARNING] {content} (Resolved IP: {ip})\t{header}: MISSING\033[0m")
+                    logf.write(f"{now}\t[WARNING] {content} (Resolved IP: {ip})\t{header}: MISSING\n")
 
-            print(f"\033[93m{now}\t{content} (Resolved IP: {ip})\tHSTS/CSP Score: {security_score}/{sum(header_points.values())}\033[0m")
-            logf.write(f"{now}\t{content} (Resolved IP: {ip})\tHSTS/CSP Score: {security_score}/{sum(header_points.values())}\n")
+            print(f"\033[93m{now}\t[SCORE] {content} (Resolved IP: {ip})\tHSTS/CSP Score: {security_score}/{sum(header_points.values())}\033[0m")
+            logf.write(f"{now}\t[SCORE] {content} (Resolved IP: {ip})\tHSTS/CSP Score: {security_score}/{sum(header_points.values())}\n")
 
         except Exception as e:
             print("===========================================================")
-            print(f"{now}\tURL: {content} (Resolved IP: {ip} : Error: {e})")
-            logf.write(f"{now}\tURL: {content} (Resolved IP: {ip} : Error: {e})\n")
-            print(f"\033[93m{now}\t{content} (Resolved IP: {ip})\tHSTS/CSP Score: KO\033[0m")
-            logf.write(f"{now}\t{content} (Resolved IP: {ip})\tHSTS/CSP Score: KO\n")
+            print(f"{now}\tEXCEPTION: {content} (Resolved IP: {ip} : Error: {e})")
+            logf.write(f"{now}\tEXCEPTION: {content} (Resolved IP: {ip} : Error: {e})\n")
+
+            print(f"\033[93m{now}\t[SCORE] {content} (Resolved IP: {ip})\tHSTS/CSP Score: KO\033[0m")
+            logf.write(f"{now}\t[SCORE] {content} (Resolved IP: {ip})\tHSTS/CSP Score: KO\n")
 
 end_time = time.time()
 print("")
